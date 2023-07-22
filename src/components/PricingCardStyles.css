@@ -1,0 +1,103 @@
+.pricing{
+width: 100%;
+padding: 6rem 1rem;
+background: #000;
+}
+
+.card-container{
+    max-width: 1140px;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+
+.card1{
+    border: 3px solid #fff;
+    background: url("https://images.pexels.com/photos/4162495/pexels-photo-4162495.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-position: center;
+    color: #eee;
+    height: 350px;
+    text-align: center;
+    padding: 1rem;
+    opacity: 0.8;
+}
+
+.card2{
+    border: 3px solid #fff;
+    background: url("https://media.istockphoto.com/id/480174782/photo/pull-ups.jpg?s=612x612&w=0&k=20&c=CKSxBkNpccjsb0NdG0BghST1YZjjL6RkIUOnpHVyy3Q=");
+    background-position: center;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+    opacity: 0.8;
+    height: 350px;
+}
+.card3{
+    border: 3px solid #fff;
+    background: url("https://images.unsplash.com/photo-1634225251578-d5f6ffced78a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FsaXN0aGVuaWNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+    opacity: 0.8;
+    height: 350px;
+}
+
+.card:hover{
+    background-color: #141414;
+}
+
+.card h3{
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.card p{
+    padding: 10px 0;
+}
+
+.bar{
+    border-bottom: 1px solid #eee;
+    width: 50%;
+    margin: 0.1rem auto;
+    display: block;
+}
+
+.btc{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.card1 .btn{
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+    margin-top: 20px;
+}
+
+.card2 .btn{
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+    margin-top: 20px;
+}
+
+.card3 .btn{
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:740px) {
+    .card-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    } 
+}
