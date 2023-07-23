@@ -12,7 +12,7 @@ const Form = () => {
         <label>Email</label>
         <input type='email' name='Email' placeholder='Email id....' autoComplete='off' required></input>
         <label>Phone No.</label>
-        <input type='number' name='Phone No.' placeholder='phone...' autoComplete='off' required></input>
+        <input type='tel' name='Phone No.' placeholder='phone...' autoComplete='off' required></input>
         <label>Package</label>
         <input type='text' name='Package' placeholder='packages..' autoComplete='off'></input>
         <label>Message</label>
