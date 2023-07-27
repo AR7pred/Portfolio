@@ -20,7 +20,8 @@ const ProjectCardData = [
         title : "Lower Body Workout",
         text : "A lower body bodyweight workout can be highly effective in building lower body strength and tone. Incorporate exercises like squats, lunges, step-ups, glute bridges, and calf raises to target different muscle groups. Utilize variations and increase the number of sets and reps to challenge yourself and see progress. Consistency is vital for achieving strong and sculpted legs without the use of any equipment.",
         view:  "https://www.youtube.com/watch?v=LFbsWIV_60M&ab_channel=VShred"
-    }
+    },
+   
 ]
 
 export default ProjectCardData

@@ -14,7 +14,7 @@ const Work = () => {
             WorkCardData.map((val,ind)=>{
                 return (
                     <WorkCard
-                        key={ind}
+                        key={ind} 
                         imgsrc={val.imgsrc}
                         title ={val.title}
                         text ={val.text}
